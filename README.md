@@ -42,16 +42,3 @@ pip install -r requirements.txt
 ```powershell
 python app.py
 ```
-
-Notes
-- The `ecommerce-backend` FastAPI service loads preprocessed CSVs from its `data/` folder and exposes the endpoints above; it includes a simple rule-based classifier as a fallback and can load a local fine-tuned model from `models/sentiment_classifier` if present.
-- The frontend is a Create React App TypeScript project using Bootstrap; check the frontend repo's README for details.
-
-Contact / Next steps
-- I can add API examples, run the backend here to verify endpoints, or add Dockerfiles to both frontend and backend for easier deployment. Once you deploy, provide the public URL and I'll add it to this README.
-Notes
-- The `ecommerce-backend` FastAPI service loads preprocessed CSVs from its `data/` folder and exposes the endpoints above; it includes a simple rule-based classifier as a fallback and can load a local fine-tuned model from `models/sentiment_classifier` if present.
-- The frontend is a Create React App TypeScript project using Bootstrap for layout; its README in `ecommerce-frontend` contains frontend-specific dev scripts.
-
-Contact / Next steps
-- I can integrate detailed API examples into this README, run the backend here to verify endpoints, or add Dockerfiles to both frontend and backend for easier local deployment.
